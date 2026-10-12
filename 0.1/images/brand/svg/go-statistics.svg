@@ -1,0 +1,9 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="go-statistics">
+  <defs><linearGradient id="statgrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F2B36B"/><stop offset="1" stop-color="#9E520F"/></linearGradient></defs>
+  <rect width="256" height="256" rx="56" fill="url(#statgrad)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 196C48.7 195.3 53.3 194.1 58 191.6C62.7 189.2 67.3 185.4 72 179.4C76.7 173.4 81.3 165 86 154.1C90.7 143.3 95.3 130 100 116.5C104.7 103 109.3 89.5 114 79.7C118.7 69.9 123.3 64 128 64C132.7 64 137.3 69.9 142 79.7C146.7 89.5 151.3 103 156 116.5C160.7 130 165.3 143.3 170 154.1C174.7 165 179.3 173.4 184 179.4C188.7 185.4 193.3 189.2 198 191.6C202.7 194.1 207.3 195.3 212 196"/>
+    <path d="M36 196 H220"/>
+    <path d="M100 196 V116.5"/><path d="M156 196 V116.5"/>
+  </g>
+</svg>
