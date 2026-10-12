@@ -93,7 +93,7 @@ params:
   # or "main". It is what the CI checks out and imports, and its minor
   # version is the documentation's version label (v0.1.2 -> 0.1; main -> main).
   stats:
-    version: "main"
+    version: "v0.1.0"
   versions:
     # The version selector shows "main" with the development icon.
     development: "main"
