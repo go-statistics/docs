@@ -63,7 +63,6 @@ To document a release, set `params.stats.version` to its tag.
 | `scripts/import/` | the Go program that imports them |
 | `i18n/en.yaml` | the site's strings, beside the theme's |
 | `hugo.yaml` | `baseURL`, the stats version described, the navbar (version › theme › search › GitHub), the brand mounts |
-| `layouts/_partials/custom/version-select.html` | the version selector (reads `versions.json`) |
 | `layouts/_partials/custom/content-begin.html` | the outdated-version banner (reads `versions.json`) |
 | `layouts/_partials/favicons.html` | the brand's favicons |
 | `assets/css/custom.css` | the brand amber as Hextra's primary colour, the table headers |
@@ -78,7 +77,7 @@ git clone --recurse-submodules https://github.com/go-statistics/docs.git
 git clone https://github.com/go-statistics/stats.git
 cd docs
 (cd scripts/import && go run . "$PWD/../../../stats" ../../content/en/stats)
-mkdir -p data && sh themes/hextra/scripts/page-history.sh > data/pagehistory.json
+mkdir -p data && go run github.com/tannevaled/hextra/cmd/pagehistory@v0.21.0 > data/pagehistory.json
 hugo server --baseURL http://localhost:1313/docs/main/
 ```
 
